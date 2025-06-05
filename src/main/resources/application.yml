@@ -1,0 +1,14 @@
+server:
+  port: 9898
+
+spring:
+  application:
+    name: IDENTITY-SERVICE
+        
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://host.docker.internal:8761/eureka/
